@@ -1,0 +1,209 @@
+body{
+  background-color: #F3F3F3;
+  font-family: Cambria;
+}
+
+
+
+
+
+/* NAVIGATION */
+.top--div{
+  background-color: #220C00;
+  border: 1px solid #F3F3F3;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 80px;
+}
+
+.nav--list{
+  background-color: #F3F3F3;
+  margin-left: 550px;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 2rem;
+  font-weight: bold;
+  color: #0f2027; 
+  font-size: 20px;
+  font-family: 'Akshar'
+  }
+
+  .nav-item a{
+    text-decoration: none;
+    color: #0e0f0f;    
+    transition: all 200ms ease-in;
+}
+
+
+
+.nav-item:first-child{
+  margin-right: auto;
+  margin-left:2rem;
+  }
+
+  .btn-primary{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    background: #220C00;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.btn-primary:hover{
+  background: #354f70;
+}
+
+.nav{
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.navmenu{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  font-family: "bilo";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  padding: 10px;
+
+}
+.logo{
+  width: 40px;
+  margin: 10px,0,0,20px;
+}
+button{
+  color: #373a47;
+  cursor: pointer;
+}
+@media only screen and (max-width: 650px){
+  .navmenu{
+      font-size: 0.5em;
+      padding: 0;
+  }
+}
+  
+  
+  .sos ul {
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+.sos ul li{
+ margin: 5px;
+ list-style: none;
+}
+
+.sos ul li img{
+    color: skyblue;
+    font-size: 15px;
+    max-width: 100%;
+    height: 20px;
+}
+
+.ct{
+  display: flex;
+}
+
+.ab{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15px,10px;
+}
+#App {
+  font-family: sans-serif;
+
+  /* Give app full page to work with */
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
